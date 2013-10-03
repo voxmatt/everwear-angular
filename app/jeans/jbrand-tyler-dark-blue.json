@@ -1,0 +1,20 @@
+{ 
+  "back-pocket":"none",
+  "brand": "J Brand",   
+  "color": "dark blue",
+  "description":"There's nothing more legit than a pair of raw selvage jeans from J Brand, an edgy look that foregrounds your urban vibe wherever you are.",
+  "fly":"button",
+  "fit":"slim",
+  "fit_notes":"fits snugly from the thigh to knee, then tapers to the ankle for a narrow leg opening",
+  "id":"jbrand-tyler-dark-blue",
+  "images":[
+    "img/jeans/jbrand-tyler-dark-blue-1.jpg",
+    "img/jeans/jbrand-tyler-dark-blue-2.jpg",
+    "img/jeans/jbrand-tyler-dark-blue-3.jpg"
+  ],
+  "materials":"cotton selvage",
+  "price": 196,
+  "stitching":"light contrast",
+  "style": "Tyler",
+  "wash": "raw selvage"
+}

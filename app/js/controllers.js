@@ -2,18 +2,19 @@
 
 /* Controllers */
 
-function PhoneListCtrl($scope, Phone) {
-  $scope.phones = Phone.query();
-  $scope.orderProp = 'age';
+function JeanListCtrl($scope, Jean) {
+  $scope.jeans = Jean.query();
+  $scope.orderProp = 'brand';
+  $scope.listNav = true;
 }
 
 //PhoneListCtrl.$inject = ['$scope', 'Phone'];
 
 
 
-function PhoneDetailCtrl($scope, $routeParams, Phone) {
-  $scope.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
-    $scope.mainImageUrl = phone.images[0];
+function JeanDetailCtrl($scope, $routeParams, Jean) {
+  $scope.jean = Jean.get({jeanId: $routeParams.jeanId}, function(jean) {
+    $scope.mainImageUrl = jean.images[0];
   });
 
   $scope.setImage = function(imageUrl) {

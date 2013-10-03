@@ -1,0 +1,20 @@
+{ 
+  "back-pocket":"none",
+  "brand": "J Brand",   
+  "color": "blue",
+  "description":"Classic every day jean in a modern cut with minimal fading and classic details.",
+  "fly":"zip",
+  "fit":"straight",
+  "fit_notes":"Whiskering and fading at thighs",
+  "id":"jbrand-darren-blue",
+  "images":[
+    "img/jeans/jbrand-darren-blue-1.jpg",
+    "img/jeans/jbrand-darren-blue-2.jpg",
+    "img/jeans/jbrand-darren-blue-3.jpg"
+  ],
+  "materials":"cotton selvage",
+  "price": 264,
+  "stitching":"light contrast",
+  "style": "Darren",
+  "wash": "medium worn"
+}

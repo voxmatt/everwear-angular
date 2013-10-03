@@ -1,0 +1,68 @@
+[
+  {  
+    "brand": "Diesel",  
+    "color": "black",
+    "fit":"straight",
+    "fly": "button",
+    "id":"diesel-safrado-black",
+    "imageUrl": "img/jeans/diesel-safrado-black-1.jpg",
+    "price": 198,
+    "style": "Safrado",
+    "wash": "dark solid"
+  },
+  {  
+    "brand": "Diesel",  
+    "color": "dark blue",
+    "fit":"straight",
+    "fly": "button",
+    "id":"diesel-larkee-dark-blue",
+    "imageUrl": "img/jeans/diesel-larkee-dark-blue-1.jpg",
+    "price": 198,
+    "style": "Larkee",
+    "wash": "dark worn"
+  },
+  {  
+    "brand": "Diesel",  
+    "color": "dark blue",
+    "fit":"bootcut",
+    "fly": "button",
+    "id":"diesel-zatiny-dark-blue",
+    "imageUrl": "img/jeans/diesel-zatiny-dark-blue-1.jpg",
+    "price": 160,
+    "style": "Zatiny",
+    "wash": "ultra dark solid"
+  },
+  {  
+    "brand": "J Brand",  
+    "color": "white",
+    "fit":"slim",
+    "fly": "zip",
+    "id":"jbrand-kane-white",
+    "imageUrl": "img/jeans/jbrand-kane-white-1.jpg",
+    "price": 194,
+    "style": "Kane",
+    "wash": "solid worn"
+  },
+  {  
+    "brand": "J Brand",  
+    "color": "dark blue",
+    "fit":"slim",
+    "fly": "button",
+    "id":"jbrand-tyler-dark-blue",
+    "imageUrl": "img/jeans/jbrand-tyler-dark-blue-1.jpg",
+    "price": 196,
+    "style": "Tyler",
+    "wash": "raw selvage"
+  },
+  {  
+    "brand": "J Brand",  
+    "color": "blue",
+    "fit":"straight",
+    "fly": "zip",
+    "id":"jbrand-darren-blue",
+    "imageUrl": "img/jeans/jbrand-darren-blue-1.jpg",
+    "price": 264,
+    "style": "Darren",
+    "wash": "medium worn"
+  }
+]

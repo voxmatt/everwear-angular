@@ -1,0 +1,21 @@
+{ 
+  "back-pocket":"signature stitch",
+  "brand": "Diesel",   
+  "color": "dark blue",
+  "description":"Diesel bootcut jeans with five pocket styling and button fly. 12.5 oz denim. In an ultra dark wash, an almost raw look.",
+  "fly":"button",
+  "fit":"bootcut",
+  "fit_notes":"",
+  "id":"diesel-zatiny-dark-blue",
+  "images":[
+    "img/jeans/diesel-zatiny-dark-blue-1.jpg",
+    "img/jeans/diesel-zatiny-dark-blue-2.jpg",
+    "img/jeans/diesel-zatiny-dark-blue-3.jpg",
+    "img/jeans/diesel-zatiny-dark-blue-4.jpg"
+  ],
+  "materials":"cotton",
+  "price": 198,
+  "stitching":"mild contrast",
+  "style": "zatiny",
+  "wash": "ultra dark solid"
+}

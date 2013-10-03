@@ -2,10 +2,10 @@
 
 /* App Module */
 
-angular.module('phonecat', ['phonecatFilters', 'phonecatServices']).
+angular.module('everwear', ['everwearFilters', 'everwearServices']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/phones', {templateUrl: 'partials/phone-list.html',   controller: PhoneListCtrl}).
-      when('/phones/:phoneId', {templateUrl: 'partials/phone-detail.html', controller: PhoneDetailCtrl}).
-      otherwise({redirectTo: '/phones'});
+      when('/jeans', {templateUrl: 'partials/jean-list.html',   controller: JeanListCtrl}).
+      when('/jeans/:jeanId', {templateUrl: 'partials/jean-detail.html', controller: JeanDetailCtrl}).
+      otherwise({redirectTo: '/jeans'});
 }]);

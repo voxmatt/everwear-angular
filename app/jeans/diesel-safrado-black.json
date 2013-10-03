@@ -1,0 +1,20 @@
+{ 
+  "back-pocket":"signature stitch",
+  "brand": "Diesel",   
+  "color": "black",
+  "description":"Black denim gets the signature Diesel touch with heavy creasing and an urban look.",
+  "fly":"button",
+  "fit":"straight",
+  "fit_notes":"",
+  "id":"diesel-safrado-black",
+  "images":[
+    "img/jeans/diesel-safrado-black-1.jpg",
+    "img/jeans/diesel-safrado-black-2.jpg",
+    "img/jeans/diesel-safrado-black-3.jpg"
+  ],
+  "materials":"cotton",
+  "price": 198,
+  "stitching":"contrast",
+  "style": "Safrado",
+  "wash": "dark solid"
+}

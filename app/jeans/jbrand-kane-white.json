@@ -1,0 +1,20 @@
+{ 
+  "back-pocket":"none",
+  "brand": "J Brand",   
+  "color": "white",
+  "description":"Switch it up with a classic pair of white jeans.",
+  "fly":"zip",
+  "fit":"slim",
+  "fit_notes":"Slim Straight: fits comfortably slim through the hip and thigh, then tapers slightly for a narrower leg opening",
+  "id":"jbrand-kane-white",
+  "images":[
+    "img/jeans/jbrand-kane-white-1.jpg",
+    "img/jeans/jbrand-kane-white-2.jpg",
+    "img/jeans/jbrand-kane-white-3.jpg"
+  ],
+  "materials":"cotton",
+  "price": 194,
+  "stitching":"fabric color",
+  "style": "Kane",
+  "wash": "solid worn"
+}

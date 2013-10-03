@@ -1,0 +1,68 @@
+<nav class="navbar navbar-default navbar-fixed-top futura" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand josefin" href="#">Everwear</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="#">back</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown nav-icon">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:8px 12px;">
+          <i class="icon-question"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">How Everwear Works</a></li>
+          <li><a href="#">Email Everwear</a></li>
+          <li><a href="#">Chat with Everwear</a></li>
+        </ul>
+      </li>
+      <li class="nav-icon">
+        <a href="#">
+          <i class="icon-shopping-cart"></i>
+        </a>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<div class="content-container jeans-detail" style="margin-top:100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <img ng-src="{{mainImageUrl}}" class="img-responsive">
+      </div>
+
+      <div class="col-sm-1">
+        <div ng-repeat="img in jean.images" style="margin-bottom:15px; cursor:hand; cursor:pointer;">
+          <img ng-src="{{img}}" ng-click="setImage(img)" class="img-responsive">
+        </div>
+      </div>
+
+      <div class="col-md-5">
+        <h2 class="josefin">
+          <b>{{jean.brand}} {{jean.style}}</b>,
+          {{jean.fit}} fit, {{jean.color}}
+        </h2>
+
+        <p ng-show="jean.description != ''">{{jean.description}}</p>
+        <p ng-show="jean.fit != ''">{{jean.description}}</p>
+
+        <ul>
+          <li ng-show="jean.back-pocket != ''">Back Pocket: {{jean.back-pocket}}</li>
+        </ul>
+      </div>
+
+  </div>
+</div>

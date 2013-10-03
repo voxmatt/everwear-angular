@@ -1,7 +1,7 @@
 'use strict';
 
 /* jasmine specs for controllers go here */
-describe('PhoneCat controllers', function() {
+describe('Everwear controllers', function() {
 
   beforeEach(function(){
     this.addMatchers({
@@ -12,10 +12,10 @@ describe('PhoneCat controllers', function() {
   });
 
 
-  beforeEach(module('phonecatServices'));
+  beforeEach(module('everwearServices'));
 
 
-  describe('PhoneListCtrl', function(){
+  describe('JeanListCtrl', function(){
     var scope, ctrl, $httpBackend;
 
     beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {

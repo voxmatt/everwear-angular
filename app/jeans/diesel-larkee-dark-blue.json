@@ -1,0 +1,20 @@
+{ 
+  "back-pocket":"signature stitch",
+  "brand": "Diesel",   
+  "color": "dark blue",
+  "description":"A workhorse jean in a dark wash with whispering and fading on thighs.",
+  "fly":"button",
+  "fit":"straight",
+  "fit_notes":"",
+  "id":"diesel-larkee-dark-blue",
+  "images":[
+    "img/jeans/diesel-larkee-dark-blue-1.jpg",
+    "img/jeans/diesel-larkee-dark-blue-2.jpg",
+    "img/jeans/diesel-larkee-dark-blue-3.jpg"
+  ],
+  "materials":"cotton",
+  "price": 198,
+  "stitching":"mild contrast",
+  "style": "Larkee",
+  "wash": "dark worn"
+}

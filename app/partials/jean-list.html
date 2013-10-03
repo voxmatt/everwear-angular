@@ -1,0 +1,133 @@
+<nav class="navbar navbar-default navbar-fixed-top futura" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand josefin" href="#">Everwear</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="#">Brands</a>
+      </li>
+      <li>
+        <a href ng-click="showSearch = ! showSearch">Search</a>
+        <div class="form-group" ng-class="{ 'hidden': ! showSearch }">
+          <input type="text" class="form-control" placeholder="search" ng-model="query">
+        </div>
+      </li>
+      <li>
+        <a href="#">Filter</a>
+      </li>
+    </ul>
+    <!--     <form class="navbar-form navbar-left" role="search">
+      <div class="form-group">
+        <select class="form-control" ng-model="orderProp">
+          <option value="brand">Brand</option>
+          <option value="price">Price</option>
+        </select>
+      </div>
+    </form> -->
+
+    <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown nav-icon">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding:8px 12px;">
+          <i class="icon-question"></i>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="#">How Everwear Works</a></li>
+          <li><a href="#">Email Everwear</a></li>
+          <li><a href="#">Chat with Everwear</a></li>
+        </ul>
+      </li>
+      <li class="nav-icon">
+        <a href="#">
+          <i class="icon-shopping-cart"></i>
+        </a>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<div class="header-image">
+  <div id="header-carousel" class="carousel slide" style="height:600px;" data-interval="false">
+    <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0"></li>
+      <li class="" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/splash1.jpg" style="width:100%; margin-top:-20%;">
+      </div>
+      <div class="item">
+        <img src="img/splash2.jpg" style="width:100%;">
+      </div>
+    </div>
+    <a class="left carousel-control" href="#header-carousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#header-carousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
+  <h1 class="josefin">
+    <div>JEANS YOU LOVE</div>
+    <div>EXACTLY YOUR SIZE</div>
+  </h1>
+</div>
+
+<div class="content-container jeans-list">
+  <div class="container">
+    
+    <div class="row">
+      
+      <div class="text-center">
+        <h3 class="josefin">
+          How Everwear Works
+        </h3>
+      </div>
+
+      <p class="text-center" style="padding-bottom:60px;">
+        placeholder
+      </p>
+    </div>
+
+    <div class="row">
+      
+      <div class="text-center">
+        <h3 class="josefin">
+          Our Jeans
+        </h3>
+      </div>
+
+      <div ng-repeat="jean in jeans | filter:query | orderBy:orderProp" class="col-sm-4">
+        <a href="#/jeans/{{jean.id}}">
+          <div class="thumbnail" style="border:0;">
+            <div style="display:block; position:relative;">
+              <img ng-src="{{jean.imageUrl}}" class="img-responsive">
+              <img ng-src="img/brands/{{jean.brand.replace(' ', '_')}}.png" style="position:absolute; width:70px; bottom:0; opacity:.8;">
+            </div>
+            <div class="caption">
+              <h4>
+                {{jean.style}}, {{jean.fit}} fit, {{jean.color}}
+              </h4>
+              <p>
+                {{jean.wash}} wash,
+                {{jean.fly}} fly
+                <br/>
+                ${{jean.price}}
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
